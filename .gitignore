@@ -18,8 +18,8 @@ bin/
 !**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
-application.properties
 system.properties
+application.properties
 
 .idea
 *.iws
