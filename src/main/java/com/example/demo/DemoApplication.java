@@ -15,7 +15,7 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String hello() {
-        return String.format("Hello world!");
+        return String.format(System.getenv("DB_HOST"));
     }
 
 }
