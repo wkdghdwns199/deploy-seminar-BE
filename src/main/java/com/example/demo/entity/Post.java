@@ -9,7 +9,6 @@ public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String title;
     private String content;
     private String author;
@@ -20,6 +19,9 @@ public class Post {
         this.createdAt = LocalDateTime.now();
     }
 
+    public Long getId() {
+        return id;
+    }
     public String getTitle() {
         return title;
     }
